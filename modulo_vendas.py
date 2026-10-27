@@ -136,9 +136,9 @@ def limpar_dados(dados_brutos):
     for lin in dados_brutos:
 
         # Tratamento de espaços
-        prod = lin["produto"].strip()
-        cat = lin["categoria"].strip()
-        reg = lin["regiao"].strip()
+        prod = lin["produto"].strip().title()
+        cat = lin["categoria"].strip().title()
+        reg = lin["regiao"].strip().title()
         cli = lin["cliente"].strip()
 
         # Validacao de nulos/vazios
