@@ -118,40 +118,15 @@ def carregar_csv(caminho_arquivo):
 
 
 # RF02 - Inspecionar dados
-# RF02 - Inspecionar e descrever os dados
 def inspecionar_dados(dados):
     print("\n=== INSPEÇÃO INICIAL DOS DADOS ===")
+
     print(f"Total de registros carregados: {len(dados)}")
 
-    if not dados:
-        print("Nenhum registro foi encontrado.")
-        return
+    if dados:
+        print(f"Campos disponíveis: {list(dados[0].keys())}")
+        print(f"Exemplo do primeiro registro: {dados[0]}")
 
-    print(f"Campos disponíveis: {list(dados[0].keys())}")
-    print(f"Exemplo do primeiro registro: {dados[0]}")
-
-    incompletos = []
-
-    for numero, linha in enumerate(dados, start=1):
-        campos_vazios = [
-            campo
-            for campo, valor in linha.items()
-            if valor is None or str(valor).strip() == ""
-        ]
-
-        if campos_vazios:
-            incompletos.append((numero, campos_vazios))
-
-    print(
-        f"Registros incompletos ou com valores nulos: "
-        f"{len(incompletos)}"
-    )
-
-    for numero, campos in incompletos:
-        print(
-            f" - Registro {numero}: campos vazios: "
-            f"{', '.join(campos)}"
-        )
 
 # RF03 - Limpar e tratar dados
 def limpar_dados(dados_brutos):
@@ -167,7 +142,9 @@ def limpar_dados(dados_brutos):
         cli = lin["cliente"].strip()
 
         # Validacao de nulos/vazios
-        if not lin["quantidade"] or not lin["preco_unitario"]:
+        if (not prod or not cat or not reg or not cli
+                or not lin["quantidade"].strip()
+                or not lin["preco_unitario"].strip()):
             removidos += 1
             continue
 
