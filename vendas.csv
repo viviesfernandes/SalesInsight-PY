@@ -25,12 +25,12 @@ id_venda,data_venda,cliente,produto,categoria,regiao,quantidade,preco_unitario
 24,2024-02-15,Cliente_026,Teclado,Acessórios,Norte,7,1672.94
 25,2024-03-14,Cliente_016,Notebook,Eletrônicos,Centro-Oeste,1,3249.65
 26,2024-08-10,Cliente_014,Smartphone,Celulares,Norte,1,107.33
-27,2024-12-18,Cliente_002,Mouse_27,Acessórios,Nordeste,3,840.18
+27,2024-12-18,Cliente_002,     Mouse ,Acessórios,Nordeste,3,840.18
 28,2024-09-03,Cliente_028,Notebook,Eletrônicos,Sul,8,2999.25
 29,2024-10-20,Cliente_002,Notebook,Eletrônicos,Norte,4,3301.43
 30,2024-04-09,Cliente_013,Notebook,Eletrônicos,Sul,6,794.48
-31,2024-08-20,Cliente_019,Mouse_31,Acessórios,Sudeste,8,2656.34
-32,2024-04-12,Cliente_010,Notebook_32,Eletrônicos,Sul,5,1286.63
+31,2024-08-20,Cliente_019,     Mouse ,Acessórios,Sudeste,8,2656.34
+32,2024-04-12,Cliente_010,     Notebook ,Eletrônicos,Sul,5,1286.63
 33,2024-01-22,Cliente_027,Monitor,Eletrônicos,Norte,5,3456.59
 34,2024-02-24,Cliente_018,Tablet,Celulares,Sul,2,556.59
 35,2024-05-17,Cliente_016,Tablet,Celulares,Nordeste,4,792.23
@@ -58,16 +58,16 @@ id_venda,data_venda,cliente,produto,categoria,regiao,quantidade,preco_unitario
 57,2024-07-14,Cliente_011,Notebook,Eletrônicos,Norte,4,619.54
 58,2024-12-01,Cliente_028,Monitor,Eletrônicos,Norte,4,1424.22
 59,2024-07-18,Cliente_024,Monitor,Eletrônicos,Norte,6,1425.95
-60,2024-06-22,Cliente_022,Teclado_60,Acessórios,Centro-Oeste,8,1581.84
+60,2024-06-22,Cliente_022,     Teclado ,Acessórios,Centro-Oeste,8,1581.84
 61,2024-07-19,Cliente_019,Mouse,Acessórios,Sudeste,8,3434.45
 62,2024-06-07,Cliente_015,Notebook,Eletrônicos,Nordeste,3,717.88
 63,2024-02-16,Cliente_001,Tablet,Celulares,Norte,7,3334.09
 64,2024-01-25,Cliente_001,Notebook,Eletrônicos,Sul,6,333.3
 65,2024-04-15,Cliente_023,Smartphone,Celulares,Nordeste,3,1710.11
 66,2024-10-01,Cliente_030,Tablet,Celulares,Nordeste,2,656.8
-67,2024-12-27,Cliente_021,Teclado_67,Acessórios,Sul,7,2531.05
+67,2024-12-27,Cliente_021,     Teclado ,Acessórios,Sul,7,2531.05
 68,2024-10-26,Cliente_002,Notebook,Eletrônicos,Nordeste,5,2141.4
-69,2024-07-27,Cliente_016,Teclado_69,Acessórios,Sudeste,6,2301.65
+69,2024-07-27,Cliente_016,     Teclado ,Acessórios,Sudeste,6,2301.65
 70,2024-11-09,Cliente_020,Monitor,Eletrônicos,Norte,8,1580.66
 71,2024-05-15,Cliente_008,Monitor,Eletrônicos,Centro-Oeste,5,934.68
 72,2024-08-07,Cliente_012,Teclado,Acessórios,Nordeste,7,1780.64
@@ -86,12 +86,12 @@ id_venda,data_venda,cliente,produto,categoria,regiao,quantidade,preco_unitario
 85,2024-05-26,Cliente_026,Smartphone,Celulares,Norte,5,1643.71
 86,2024-05-27,Cliente_005,Mouse,Acessórios,Sudeste,4,1951.51
 87,2024-08-04,Cliente_015,Notebook,Eletrônicos,Nordeste,5,2902.42
-88,2024-01-14,Cliente_024,Mouse_88,Acessórios,Nordeste,5,1778.9
+88,2024-01-14,Cliente_024,     Mouse ,Acessórios,Nordeste,5,1778.9
 89,2024-10-01,Cliente_025,Teclado,Acessórios,Nordeste,2,2392.61
 90,2024-05-06,Cliente_019,Teclado,Acessórios,Centro-Oeste,,1699.7
 91,2024-02-28,Cliente_006,Mouse,Acessórios,Nordeste,2,1488.38
 92,2024-01-15,Cliente_003,Monitor,Eletrônicos,Nordeste,5,1461.54
-93,2024-09-15,Cliente_014,Tablet_93,Celulares,Sudeste,7,2904.75
+93,2024-09-15,Cliente_014,     Tablet ,Celulares,Sudeste,7,2904.75
 94,2024-09-05,Cliente_030,Smartphone,Celulares,Nordeste,8,2683.97
 95,2024-04-23,Cliente_006,Monitor,Eletrônicos,Nordeste,8,3408.7
 96,2024-02-15,Cliente_004,Teclado,Acessórios,Sul,,863.98
@@ -117,12 +117,12 @@ id_venda,data_venda,cliente,produto,categoria,regiao,quantidade,preco_unitario
 116,2024-02-15,Cliente_003,Smartphone,Celulares,Sul,8,1103.48
 117,2024-07-01,Cliente_009,Smartphone,Celulares,Norte,7,2835.6
 118,2024-02-22,Cliente_008,Notebook,Eletrônicos,Centro-Oeste,5,2896.22
-119,2024-08-23,Cliente_010,Notebook_119,Eletrônicos,Centro-Oeste,6,852.65
-120,2024-09-05,Cliente_013,Notebook_120,Eletrônicos,Centro-Oeste,1,1774.92
+119,2024-08-23,Cliente_010,     Notebook ,Eletrônicos,Centro-Oeste,6,852.65
+120,2024-09-05,Cliente_013,     Notebook ,Eletrônicos,Centro-Oeste,1,1774.92
 121,2024-11-04,Cliente_027,Tablet,Celulares,Centro-Oeste,7,2570.44
 122,2024-08-15,Cliente_008,Teclado,Acessórios,Nordeste,5,
 123,2024-07-09,Cliente_007,Notebook,Eletrônicos,Sudeste,6,3424.66
-124,2024-06-08,Cliente_005,Monitor_124,Eletrônicos,Norte,4,2130.3
+124,2024-06-08,Cliente_005,     Monitor ,Eletrônicos,Norte,4,2130.3
 125,2024-03-26,Cliente_029,Smartphone,Celulares,Norte,4,2864.38
 126,2024-02-22,Cliente_028,Notebook,Eletrônicos,Sudeste,3,1936.73
 127,2024-03-09,Cliente_002,Smartphone,Celulares,Sul,,908.97
@@ -144,8 +144,8 @@ id_venda,data_venda,cliente,produto,categoria,regiao,quantidade,preco_unitario
 143,2024-10-16,Cliente_017,Tablet,Celulares,Nordeste,2,477.03
 144,2024-04-25,Cliente_005,Notebook,Eletrônicos,Nordeste,1,
 145,2024-09-23,Cliente_008,Tablet,Celulares,Norte,1,1564.23
-146,2024-01-15,Cliente_030,Teclado_146,Acessórios,Sudeste,6,3030.0
+146,2024-01-15,Cliente_030,     Teclado ,Acessórios,Sudeste,6,3030.0
 147,2024-01-11,Cliente_006,Tablet,Celulares,Norte,7,1520.16
 148,2024-10-13,Cliente_017,Monitor,Eletrônicos,Sudeste,6,2971.25
-149,2024-11-04,Cliente_017,Monitor_149,Eletrônicos,Norte,6,2749.0
+149,2024-11-04,Cliente_017,     Monitor ,Eletrônicos,Norte,6,2749.0
 150,2024-03-08,Cliente_004,Smartphone,Celulares,Sul,6,3357.96

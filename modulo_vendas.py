@@ -68,7 +68,7 @@ def gerar_dataset_sintetico(
         )
 
         prod_nome = (
-            f"{prod}_{i}"
+            f"     {prod} "
             if random.random() < 0.1
             else prod
         )
